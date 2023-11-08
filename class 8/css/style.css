@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+
+.nav{
+    background-color: #333;
+    color:#fff;
+    padding:0 50px;
+    overflow: hidden;
+}
+.nav .brand{
+    text-transform: uppercase;
+    float: left;
+    margin-top: 10px;
+}
+.nav ul{
+    list-style-type:none;
+    float: right;
+    margin:20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    padding:30px 20px;
+    /* margin-top: 10px; */
+    transition: 0.5s ease-in;
+}
+.nav ul li a:hover{
+    color:#333;
+    background-color: #ffffff;
+    transition: 0.5s ease-out;
+}
+.nav ul li a:active{
+    background-color: red;
+}
+.hero{
+    background: #17BAEF;
+    height: 100vh;
+}
+.hero-text{
+    position: relative;
+    top:200px;
+    text-align: center;
+    width: 50%;
+    margin:0 auto;
+}
+.hero-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 98px;
+    font-weight: 700;
+    color:#074f66;
+}
+.hero-text .heilight-1{
+    color:#cfef17
+}
+.hero-text .heilight-2{
+    color:#d30e70;
+}
+.hero-text p{
+    color:#fff;
+    font-size:28px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 40px;
+
+}
+
+.y-btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eebf3f;
+    color:#fff;
+    padding:10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.y-btn:hover{
+    background-color: #af871b;
+}
+.mt-50{
+    margin-top: 50px;
+}
+
+.b-btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #074F66;
+    color:#fff;
+    padding:10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.b-btn:hover{
+    background-color: #043b4e;
+}

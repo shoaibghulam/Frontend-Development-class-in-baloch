@@ -1,0 +1,49 @@
+:root{
+    --dark-gray:#13121E;
+    --white:#fff;
+    
+}
+
+nav{
+    background: var(--dark-gray);
+    color:var(--white);
+    overflow: hidden;
+    padding:14px 15px;
+}
+.brand{
+    font-size: 34px;
+    float: left;
+
+}
+nav ul{
+    list-style-type:none;
+    padding-right: 20px;
+
+}
+nav ul li{
+    float:right;
+}
+nav ul li a{
+    color:var(--white);
+    padding: 16px 14px;
+    text-decoration: none;
+}
+.container{
+    padding:20px;
+}
+
+ .cards div{
+    background-color: var(--dark-gray);
+    color:#fff;
+ 
+} 
+
+.cards{
+    display:grid;
+    /* grid-template-columns:25% 25% 25% 20%; */
+    /* column-gap: 1%; */
+    grid-template-columns: 1fr 1fr 1fr  ;
+    column-gap: 30px;
+    row-gap: 10px;
+    
+}
